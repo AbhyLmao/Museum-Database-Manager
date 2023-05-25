@@ -1,8 +1,3 @@
-# Museum Database
-A python/MySQL database program that manages the created Museum Database. 
-Several roles and permissions exist (ADMIN, DATAENTRY, GUEST) each with different permissions.
-Able to perform MySQL commands, and functions on a python code command line.
-
 ## Information
 
 [MuseumProgram.py] is the main file of the program, this needs to be run as the main file.
