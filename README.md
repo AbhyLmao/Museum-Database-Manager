@@ -1,12 +1,15 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9547317&assignment_repo_type=AssignmentRepo)
-# Museum-Project
-## To Do list:
-- modify this file to include your group members information and tasks assigned per each
-- modify this file to include any notes on how to use and run the program
-- include any features you have added beyond the minimum requirements in a features list
+# Museum Database
+A python/MySQL database program that manages the created Museum Database. 
+Several roles and permissions exist (ADMIN, DATAENTRY, GUEST) each with different permissions.
+Able to perform MySQL commands, and functions on a python code command line.
 
-## Organization:
-- code folder: contains your main python application code
-- sql scripts folder: contains all sql scripts required (database creation and initialization, sql script with query tasks in the handout, etc...)
-- database design folder: EERD and relational schema
-- optional data folder: has data files that you can sue to load data to your application if you use this optional implementation requirement
+## Information
+
+[MuseumProgram.py] is the main file of the program, this needs to be run as the main file.
+
+MuseumData.sql is a file that is used as an example for the admin to source it and runs
+
+### Addition Library
+
+mysql.connector: This is a library for connecting to MySQL databases from Python. It allows you to execute SQL queries, retrieve results, and perform various other database operations from within your Python scripts.
+
